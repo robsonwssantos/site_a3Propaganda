@@ -17,6 +17,10 @@ nav ul a:hover {
     transition: 0.6s;
 }
 
+.nav .nav-link.active {
+    color: #DE4190;
+}
+
 
 .nav .nav-link {
     color: #DE4190;
@@ -98,10 +102,6 @@ nav ul a:hover {
     transition: 0.6s;
 }
 
-.carousel img {
-    background-image: url(./imagens/imagens_banner/slideSemLogo01.jpg);
-}
-
 .footer {
     background-color: #f1f1f1;
 }
@@ -113,8 +113,19 @@ nav ul a:hover {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-@media (max-width: 767px) {
-    .corousel-item {
-        height: 280px;
+@media screen and (max-width: 767px) {
+    nav ul a:hover {
+        transform: scale(1.04);
     }
-}   
+
+    .nav .nav-link {
+        color: #DE4190;
+        font-weight: bold;
+        text-align: center;
+        margin: 8px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    
+}
