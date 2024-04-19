@@ -6,6 +6,38 @@ body {
     max-width: 100px;
 }
 
+.carousel-inner {
+
+}
+
+.item-carousel-1 {
+    background-image: url(./imagens/imagens_banner/slideSemLogo01.jpg);
+    height: 40vw;
+    width: 100%;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-carousel-2 {
+    background-image: url(./imagens/imagens_banner/slideSemLogo02.jpg);
+    height: 40vw;
+    width: 100%;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-carousel-3 {
+    background-image: url(./imagens/imagens_banner/slideSemLogo03.jpg);
+    height: 40vw;
+    width: 100%;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 .navbar {
     background-color: #f1f1f1;
@@ -166,6 +198,34 @@ footer  h3 {
 }
 
 @media screen and (max-width: 475px) {
+
+    .item-carousel-1 {
+        background-image: url(./imagens/imagens_banner/slideSemLogo01.jpg);
+        height: 40vw;
+        width: 100%;
+        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .item-carousel-2 {
+        background-image: url(./imagens/imagens_banner/slideSemLogo02.jpg);
+        height: 40vw;
+        width: 100%;
+        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .item-carousel-3 {
+        background-image: url(./imagens/imagens_banner/slideSemLogo03.jpg);
+        height: 40vw;
+        width: 100%;
+        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
     .img-sobre {
         display: none;
